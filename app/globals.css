@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root { --ink: #10203a; --muted: #62718a; --brand: #4f46e5; --teal: #0f9e9b; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { color: var(--ink); background: #fcfdff; font-family: Arial, Helvetica, sans-serif; }
+::selection { background: #c7d2fe; color: #172554; }
+.grid-glow { background-image: linear-gradient(rgba(79,70,229,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(79,70,229,.055) 1px, transparent 1px); background-size: 34px 34px; }
+.page-shell { overflow: hidden; }
