@@ -2,6 +2,22 @@
 
 :root { --ink: #10203a; --muted: #62718a; --brand: #4f46e5; --teal: #0f9e9b; }
 * { box-sizing: border-box; }
+
+.flodesk-shell [data-ff-el="root"] { color: #0f172a; }
+.flodesk-shell .ff-6a9a5e4ea417fd519e2aebf1__container { width: 100%; overflow: hidden; border-radius: 1.35rem; background: #fff; }
+.flodesk-shell .ff-6a9a5e4ea417fd519e2aebf1__form { width: 100%; margin: 0; padding: 1.75rem; font-family: Arial, sans-serif; }
+.flodesk-shell .ff-6a9a5e4ea417fd519e2aebf1__field { position: relative; margin-bottom: 1rem; }
+.flodesk-shell .ff-6a9a5e4ea417fd519e2aebf1__control { width: 100%; min-height: 3.35rem; border: 1px solid #e2e8f0; border-radius: .75rem; background: #f8fafc; padding: .9rem 1rem; color: #0f172a; outline: none; }
+.flodesk-shell .ff-6a9a5e4ea417fd519e2aebf1__control:focus { border-color: #6366f1; box-shadow: 0 0 0 4px #e0e7ff; }
+.flodesk-shell .ff-6a9a5e4ea417fd519e2aebf1__control::placeholder { color: #94a3b8; opacity: 1; }
+.flodesk-shell .ff-6a9a5e4ea417fd519e2aebf1__label { display: block; position: static; margin: 0 0 .45rem; color: #334155; font-size: .875rem; font-weight: 700; line-height: 1.25rem; pointer-events: auto; }
+.flodesk-shell textarea.ff-6a9a5e4ea417fd519e2aebf1__control { min-height: 7.25rem; resize: vertical; }
+.flodesk-shell .ff-6a9a5e4ea417fd519e2aebf1__button { width: 100%; min-height: 3.5rem; border: 0; border-radius: .75rem; background: #4f46e5; color: #fff; font-weight: 700; box-shadow: 0 10px 20px #c7d2fe; cursor: pointer; }
+.flodesk-shell .ff-6a9a5e4ea417fd519e2aebf1__button:hover { background: #4338ca; }
+.flodesk-shell .fd-form-success, .flodesk-shell .fd-form-error { display: none; text-align: center; padding: 1.5rem 0 .25rem; }
+.flodesk-shell [data-ff-stage="success"] .fd-form-content { display: none; }
+.flodesk-shell [data-ff-stage="success"] .fd-form-success { display: block; color: #0f766e; font-weight: 700; }
+.flodesk-shell [data-ff-stage="error"] .fd-form-error { display: block; color: #b91c1c; }
 html { scroll-behavior: smooth; }
 body { color: var(--ink); background: #fcfdff; font-family: Arial, Helvetica, sans-serif; }
 ::selection { background: #c7d2fe; color: #172554; }

@@ -1,0 +1,14 @@
+
+> smart-idea-ai-consultation@1.0.0 dev
+> next dev -p 3001
+
+   ▲ Next.js 15.5.22
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.1.65:3001
+
+ ✓ Starting...
+ ✓ Ready in 5.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 1319ms (540 modules)
+ GET / 200 in 2127ms
+ GET / 200 in 266ms
