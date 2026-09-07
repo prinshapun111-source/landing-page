@@ -15,7 +15,7 @@ export default function CTAForm() {
     const observer = new MutationObserver(() => {
       if (root.dataset.ffStage === "success" && !redirected) {
         redirected = true;
-        window.setTimeout(() => window.location.assign("/thanks"), 1800);
+        window.setTimeout(() => window.location.assign("/thank-you"), 1800);
       }
     });
     observer.observe(root, { attributes: true, attributeFilter: ["data-ff-stage"] });
@@ -45,7 +45,7 @@ export default function CTAForm() {
       </div>
       <div ref={embedRef} className="flodesk-shell rounded-[1.75rem] bg-white p-2 shadow-2xl sm:p-3">
         <div className={formClass} data-ff-el="root" data-ff-version="3" data-ff-type="inline" data-ff-name="inlineNoImage" data-ff-stage="default">
-          <div data-ff-el="config" data-ff-config="eyJ0cmlnZ2VyIjp7Im1vZGUiOiJpbW1lZGlhdGVseSIsInZhbHVlIjowfSwib25TdWNjZXNzIjp7Im1vZGUiOiJtZXNzYWdlIiwibWVzc2FnZSI6IiIsInJlZGlyZWN0VXJsIjoiL3RoYW5rcyJ9LCJjb2kiOmZhbHNlLCJzaG93Rm9yUmV0dXJuVmlzaXRvcnMiOnRydWUsIm5vdGlmaWNhdGlvbiI6ZmFsc2UsImdkcHIiOnsiYWNjZXB0c01hcmtldGluZyI6ZmFsc2UsInByaXZhY3lQb2xpY3kiOnsiZW5hYmxlZCI6ZmFsc2V9fSwidHJhY2tpbmdDb25maWciOnsibWV0YVBpeGVsSWQiOiIiLCJjb29raWVCYW5uZXJFbmFibGVkIjpmYWxzZSwiZ29vZ2xlQW5hbHl0aWNzSWQiOiIifX0=" style={{ display: "none" }} />
+          <div data-ff-el="config" data-ff-config="eyJ0cmlnZ2VyIjp7Im1vZGUiOiJpbW1lZGlhdGVseSIsInZhbHVlIjowfSwib25TdWNjZXNzIjp7Im1vZGUiOiJtZXNzYWdlIiwibWVzc2FnZSI6IiIsInJlZGlyZWN0VXJsIjoiL3RoYW5rLXlvdSJ9LCJjb2kiOmZhbHNlLCJzaG93Rm9yUmV0dXJuVmlzaXRvcnMiOnRydWUsIm5vdGlmaWNhdGlvbiI6ZmFsc2UsInByaXZhY3lQb2xpY3kiOnsiZW5hYmxlZCI6ZmFsc2V9fSwidHJhY2tpbmdDb25maWciOnsibWV0YVBpeGVsSWQiOiIiLCJjb29raWVCYW5uZXJFbmFibGVkIjpmYWxzZSwiZ29vZ2xlQW5hbHl0aWNzSWQiOiIifX0=" style={{ display: "none" }} />
           <div className={`${formClass}__container`}><div className={`${formClass}__wrapper`}>
             <form className={`${formClass}__form`} action="https://form.flodesk.com/forms/6a9a5e4ea417fd519e2aebf1/submit" method="post" data-ff-el="form">
               <div className={`${formClass}__content fd-form-content`} data-ff-el="content">
